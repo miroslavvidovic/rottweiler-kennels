@@ -28,7 +28,7 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color: #fff;
 }
 
 hr {
@@ -62,6 +62,14 @@ hr {
     text-transform: capitalize;
 }
 
+.brand-name {
+  color: #fff;
+}
+
+h2 small{
+  color:#fff;
+}
+
 .brand-before {
     margin: 15px 0;
 }
@@ -81,7 +89,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #595959;
 }
 
 .intro-text {
@@ -89,6 +97,7 @@ hr {
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
+    color:#fff;
 }
 
 .img-border {
@@ -104,7 +113,7 @@ hr {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #595959;
 }
 
 footer p {
@@ -163,11 +172,20 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: #595959;
     }
 
     .nav>li>a {
         padding: 35px;
+    }
+
+
+    .navbar-default .navbar-nav > li > a {
+      color:#fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+      color:#D40404;
     }
 
     .navbar-nav>li>a {
