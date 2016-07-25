@@ -46,6 +46,18 @@ hr {
     font-weight: 900;
     letter-spacing: 2px;
 }
+.navbar-default {
+    background-color: #595959;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #D40404;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
 
 .navbar-nav {
     text-transform: uppercase;
