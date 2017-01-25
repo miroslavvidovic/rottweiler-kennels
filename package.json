@@ -1,0 +1,30 @@
+{
+  "name": "rottweiler-kennels",
+  "version": "1.0.0",
+  "description": "Website for a dog breader",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroslavvidovic/rottweiler-kennels.git"
+  },
+  "keywords": [
+    "dogs",
+    "breader",
+    "website",
+    "kennels"
+  ],
+  "author": "Miroslav Vidović",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miroslavvidovic/rottweiler-kennels/issues"
+  },
+  "homepage": "https://github.com/miroslavvidovic/rottweiler-kennels#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
